@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class HWLess1Task2 {
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 5, 4};
-        int[] arr2 = {2, -2, 4, 5};
+        int[] arr2 = {2, 50, 4, 5};
         try{
            int[] result = mergeAndValidateArrays(arr1, arr2);
             System.out.println(Arrays.toString(result));
